@@ -1,0 +1,35 @@
+Given an integer,check if it is prime or not.if it is prime print true otherwise print false.
+  solution : public class Prime {
+               static int prime(int n) {
+                  int num = n;
+                    int cnt = 0;
+                      for (int i = 1; i*i<=n;i++) {
+                       if(n%i == 0) {
+                        cnt++;
+                           if((n/i != i) {
+                             cnt++;
+                           }
+                         return cnt == 2;
+                       }
+        public static void main(Strings[] args) {
+                         if(prime(n))
+                           System.out.println("true");
+                          else
+                           System.out.println("false");
+                       }
+                      }
+                      or
+public class prime {
+  static int public (int n) {
+    int cnt = 0;
+     for (inti=1;i<=n;i++)
+{
+if(n%i == 0)
+  cnt++;
+public static void main(String[] args) {
+  if(cnt == 2)
+    System.out.println("true");
+else
+    System.out.println("false");
+}
+}
